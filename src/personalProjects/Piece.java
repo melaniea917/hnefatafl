@@ -7,4 +7,13 @@ package personalProjects;
  * @Version 0.0.1
  */
 public class Piece {
+    private boolean isCaptured;
+    private boolean hasEscaped;
+    private Type type;
+
+    public Piece(Type piece) {
+        isCaptured = false;
+        hasEscaped = false;
+        type = piece;
+    }
 }
